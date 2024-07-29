@@ -1,0 +1,1 @@
+My workflow is very chaotic (no clean layer system like lines/flats/shading) so I doubt source files will help much here. Hence to save space, I'll just upload the subtitle-less versions for if people want to do things with bitwam but the subtitles are annoying
