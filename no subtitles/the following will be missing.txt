@@ -1,1 +1,3 @@
 * The very first scenes from before I switched from speech bubble format to subtitle format will be missing. I didn't draw any art behind the speech bubbles, so removing them won't be of much help!
+
+* The title card will be missing -- a version of it (and a vertical cover) with only the bitwam logo but no other text can be found here: https://www.deviantart.com/crapsh0ot/gallery
