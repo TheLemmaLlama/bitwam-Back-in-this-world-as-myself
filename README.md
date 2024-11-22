@@ -1,3 +1,6 @@
+![cw](https://raw.githubusercontent.com/TheLemmaLlama/bitwam-Back-in-this-world-as-myself/refs/heads/main/1_contentwarning.gif)
+["master list" of content warnings](https://www.deviantart.com/crapsh0ot/art/bitwam-Content-Warnings-943128024)
+
 My workflow is very chaotic (no clean layer system like lines/flats/shading) so I doubt source files will help much here. Hence to save space, I'll just upload the subtitle-less versions for if people want to do things with bitwam but the subtitles are annoying
 
 How to read bitwam:
