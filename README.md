@@ -11,4 +11,4 @@ How to read bitwam:
 - The above are arc folders, inside them will be scene folders (except prologue which just directly contains images), and inside those are images. Make sure the files are sorted by file name!
 - Read through in order
 
-https://raw.githubusercontent.com/TheLemmaLlama/bitwam-Back-in-this-world-as-myself/refs/heads/main/0_titlecard.png
+https://github.com/TheLemmaLlama/bitwam-Back-in-this-world-as-myself/blob/main/0_titlecard.png
