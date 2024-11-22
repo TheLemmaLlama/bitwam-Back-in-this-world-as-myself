@@ -3,12 +3,12 @@ My workflow is very chaotic (no clean layer system like lines/flats/shading) so 
 How to read bitwam:
 - Download the [storyboards] directory
 - (once the story is complete) You should find:
-* 0 - prologue
-* 1 - on agency
-* 2 - on responsibility
-* 3 - on 'archy'
-* 4 - final arc: back to reality
+-- 0 - prologue
+-- 1 - on agency
+-- 2 - on responsibility
+-- 3 - on 'archy'
+-- 4 - final arc: back to reality
 - The above are arc folders, inside them will be scene folders (except prologue which just directly contains images), and inside those are images. Make sure the files are sorted by file name!
 - Read through in order
 
-https://github.com/TheLemmaLlama/bitwam-Back-in-this-world-as-myself/blob/main/0_titlecard.png
+https://raw.githubusercontent.com/TheLemmaLlama/bitwam-Back-in-this-world-as-myself/refs/heads/main/0_titlecard.png
