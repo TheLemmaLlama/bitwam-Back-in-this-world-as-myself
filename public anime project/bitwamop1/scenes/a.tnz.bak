@@ -1,0 +1,3563 @@
+<tnz framecount="1610" version="71.1">
+  <generator>
+    "OpenToonz 1.7.1"
+  </generator>
+  <properties>
+    <hGuides>
+      -500.385 
+    </hGuides>
+    <vGuides>
+      259.185 
+    </vGuides>
+    <cameras>
+      <camera>
+        <cameraSize>
+          16 9 
+        </cameraSize>
+        <cameraRes>
+          1920 1080 
+        </cameraRes>
+        <cameraXPrevalence>
+          1 
+        </cameraXPrevalence>
+        <interestRect>
+          0 0 -1 -1 
+        </interestRect>
+        </camera>
+      </cameras>
+    <outputs>
+      <output name="main">
+        <range>
+          0 -1 
+        </range>
+        <step>
+          1 
+        </step>
+        <shrink>
+          1 
+        </shrink>
+        <applyShrinkToViewer>
+          0 
+        </applyShrinkToViewer>
+        <fps>
+          24 
+        </fps>
+        <path>
+          "+outputs\\.tif"
+        </path>
+        <bpp>
+          32 
+        </bpp>
+        <multimedia>
+          0 
+        </multimedia>
+        <threadsIndex>
+          2 
+        </threadsIndex>
+        <maxTileSizeIndex>
+          0 
+        </maxTileSizeIndex>
+        <subcameraPrev>
+          0 
+        </subcameraPrev>
+        <stereoscopic>
+          0 0.05 
+        </stereoscopic>
+        <resquality>
+          0 
+        </resquality>
+        <fieldprevalence>
+          0 
+        </fieldprevalence>
+        <gamma>
+          1 
+        </gamma>
+        <timestretch>
+          25 25 
+        </timestretch>
+        <formatsProperties>
+          <formatProperties ext="mp4">
+            <property max="100" min="1" name="Quality" type="int" value="90"/>
+            <property max="100" min="1" name="Scale" type="int" value="100"/>
+            </formatProperties>
+          <formatProperties ext="tif">
+            <property name="Byte Ordering" type="enum" value="IBM PC">
+              <item value="IBM PC"/>
+              <item value="Mac"/>
+              </property>
+            <property name="Compression Type" type="enum" value="Lempel-Ziv and Welch encoding">
+              <item value="Lempel-Ziv and Welch encoding"/>
+              <item value="None"/>
+              <item value="Macintosh Run-length encoding"/>
+              <item value="ThunderScan Run-length encoding"/>
+              <item value="CCITT Group 3 fax encoding"/>
+              <item value="CCITT Group 4 fax encoding"/>
+              <item value="CCITT modified Huffman Run-length encoding"/>
+              <item value="JPEG compression"/>
+              <item value="JPEG compression 6.0"/>
+              <item value="SGILog"/>
+              <item value="SGILog24"/>
+              <item value="8"/>
+              <item value="zip"/>
+              <item value="Unknown"/>
+              </property>
+            <property name="Bits Per Pixel" type="enum" value="32(RGBM)">
+              <item value="24(RGB)"/>
+              <item value="48(RGB)"/>
+              <item value=" 1(BW)"/>
+              <item value=" 8(GREYTONES)"/>
+              <item value="32(RGBM)"/>
+              <item value="64(RGBM)"/>
+              </property>
+            <property name="Orientation" type="enum" value="Top Left">
+              <item value="Top Left"/>
+              <item value="Top Right"/>
+              <item value="Bottom Right"/>
+              <item value="Bottom Left"/>
+              <item value="Left Top"/>
+              <item value="Right Top"/>
+              <item value="Right Bottom"/>
+              <item value="Left Bottom"/>
+              </property>
+            </formatProperties>
+          </formatsProperties>
+        </output>
+      <output name="preview">
+        <range>
+          0 -1 
+        </range>
+        <step>
+          1 
+        </step>
+        <shrink>
+          1 
+        </shrink>
+        <applyShrinkToViewer>
+          0 
+        </applyShrinkToViewer>
+        <fps>
+          24 
+        </fps>
+        <path>
+          "+outputs\\.tif"
+        </path>
+        <bpp>
+          32 
+        </bpp>
+        <syncColorSettings>
+          1 
+        </syncColorSettings>
+        <multimedia>
+          0 
+        </multimedia>
+        <threadsIndex>
+          2 
+        </threadsIndex>
+        <maxTileSizeIndex>
+          0 
+        </maxTileSizeIndex>
+        <subcameraPrev>
+          0 
+        </subcameraPrev>
+        <stereoscopic>
+          0 0.05 
+        </stereoscopic>
+        <resquality>
+          0 
+        </resquality>
+        <fieldprevalence>
+          0 
+        </fieldprevalence>
+        <gamma>
+          1 
+        </gamma>
+        <timestretch>
+          25 25 
+        </timestretch>
+        <formatsProperties>
+          <formatProperties ext="tif">
+            <property name="Byte Ordering" type="enum" value="IBM PC">
+              <item value="IBM PC"/>
+              <item value="Mac"/>
+              </property>
+            <property name="Compression Type" type="enum" value="Lempel-Ziv and Welch encoding">
+              <item value="Lempel-Ziv and Welch encoding"/>
+              <item value="None"/>
+              <item value="Macintosh Run-length encoding"/>
+              <item value="ThunderScan Run-length encoding"/>
+              <item value="CCITT Group 3 fax encoding"/>
+              <item value="CCITT Group 4 fax encoding"/>
+              <item value="CCITT modified Huffman Run-length encoding"/>
+              <item value="JPEG compression"/>
+              <item value="JPEG compression 6.0"/>
+              <item value="SGILog"/>
+              <item value="SGILog24"/>
+              <item value="8"/>
+              <item value="zip"/>
+              <item value="Unknown"/>
+              </property>
+            <property name="Bits Per Pixel" type="enum" value="32(RGBM)">
+              <item value="24(RGB)"/>
+              <item value="48(RGB)"/>
+              <item value=" 1(BW)"/>
+              <item value=" 8(GREYTONES)"/>
+              <item value="32(RGBM)"/>
+              <item value="64(RGBM)"/>
+              </property>
+            <property name="Orientation" type="enum" value="Top Left">
+              <item value="Top Left"/>
+              <item value="Top Right"/>
+              <item value="Bottom Right"/>
+              <item value="Bottom Left"/>
+              <item value="Left Top"/>
+              <item value="Right Top"/>
+              <item value="Right Bottom"/>
+              <item value="Left Bottom"/>
+              </property>
+            </formatProperties>
+          </formatsProperties>
+        </output>
+      </outputs>
+    <cleanupParameters>
+      <cleanupCamera>
+        <cameraSize>
+          16 9 
+        </cameraSize>
+        <cameraRes>
+          1920 1080 
+        </cameraRes>
+        <cameraXPrevalence>
+          1 
+        </cameraXPrevalence>
+        <interestRect>
+          0 0 -1 -1 
+        </interestRect>
+        </cleanupCamera>
+      <cleanupPalette>
+        <version>
+          71 0 
+        </version>
+        <styles>
+          <style>
+            color_0 3 255 255 255 0 
+          </style>
+          <style>
+            color_1 2002 0 0 0 255 0 0 0 255 0 50 70 10 
+          </style>
+          </styles>
+        <stylepages>
+          <page>
+            <name>
+              colors 
+            </name>
+            <indices>
+              0 1 
+            </indices>
+            </page>
+          </stylepages>
+        <shortcuts>
+          -1 0 1 -1 -1 -1 -1 -1 -1 -1 
+        </shortcuts>
+        </cleanupPalette>
+      <lineProcessing autoAdjust="0" mode="grey" sharpness="90.000000"/>
+      <despeckling value="2"/>
+      <aaValue value="70"/>
+      <closestField value="999.000000"/>
+      <fdg name=""/>
+      <altBrightnessContrast>
+        0 50 
+      </altBrightnessContrast>
+      <lpNoneFormat>
+        tif 
+      </lpNoneFormat>
+      </cleanupParameters>
+    <scanParameters>
+      <paper fmt=""/>
+      </scanParameters>
+    <vectorizerParameters>
+      <version>
+        71 0 
+      </version>
+      <outline>
+        0 
+      </outline>
+      <visibilityBits>
+        -1 
+      </visibilityBits>
+      <Centerline>
+        <threshold>
+          8 
+        </threshold>
+        <accuracy>
+          9 
+        </accuracy>
+        <despeckling>
+          5 
+        </despeckling>
+        <maxThickness>
+          200 
+        </maxThickness>
+        <thicknessRatioFirst>
+          100 
+        </thicknessRatioFirst>
+        <thicknessRatioLast>
+          100 
+        </thicknessRatioLast>
+        <makeFrame>
+          0 
+        </makeFrame>
+        <paintFill>
+          0 
+        </paintFill>
+        <alignBoundaryStrokesDirection>
+          0 
+        </alignBoundaryStrokesDirection>
+        <naaSource>
+          0 
+        </naaSource>
+        </Centerline>
+      <Outline>
+        <despeckling>
+          4 
+        </despeckling>
+        <accuracy>
+          8 
+        </accuracy>
+        <adherence>
+          50 
+        </adherence>
+        <angle>
+          45 
+        </angle>
+        <relative>
+          25 
+        </relative>
+        <maxColors>
+          50 
+        </maxColors>
+        <toneThreshold>
+          128 
+        </toneThreshold>
+        <transparentColor>
+          255 255 255 255 
+        </transparentColor>
+        <paintFill>
+          0 
+        </paintFill>
+        <alignBoundaryStrokesDirection>
+          0 
+        </alignBoundaryStrokesDirection>
+        </Outline>
+      </vectorizerParameters>
+    <bgColor>
+      255 255 255 0 
+    </bgColor>
+    <markers>
+      6 0 
+    </markers>
+    <subsampling>
+      1 1 
+    </subsampling>
+    <fieldguide>
+      16 1.77778 
+    </fieldguide>
+    <noteColors>
+      255 235 140 255 255 160 120 255 255 180 190 255 135 205 250 255 145 240 145 255 130 255 210 255 150 245 255 255 
+    </noteColors>
+    </properties>
+  <levelSet>
+    <levels>
+      <soundLevel id='1'>
+        The_good_times_CAN_last_forever 
+        <type>
+          sound 
+        </type>
+        <path>
+          "+extras\\The_good_times_CAN_last_forever.mp3"
+        </path>
+        
+      </soundLevel>
+      <level id='2'>
+        "e&mbg"
+        <info dpix="120.000000" dpiy="120.000000"/>
+        <path>
+          "+extras\\e&mbg.png"
+        </path>
+        
+      </level>
+      <level id='3'>
+        sethbg 
+        <info dpix="120.000000" dpiy="120.000000"/>
+        <path>
+          "+extras\\sethbg.png"
+        </path>
+        
+      </level>
+      <level id='4'>
+        alanabg 
+        <info dpix="120.000000" dpiy="120.000000"/>
+        <path>
+          "+extras\\alanabg.png"
+        </path>
+        
+      </level>
+      <level id='5'>
+        "e&m"
+        <info dpix="120.000000" dpiy="120.000000"/>
+        <path>
+          "+extras\\e&m.png"
+        </path>
+        
+      </level>
+      <level id='6'>
+        B 
+        <info dpiType="image"/>
+        <path>
+          "+drawings\\B.tlv"
+        </path>
+        
+      </level>
+      <level id='7'>
+        C 
+        <info dpiType="image"/>
+        <path>
+          "+drawings\\C.tlv"
+        </path>
+        
+      </level>
+      <level id='8'>
+        seth 
+        <info dpix="120.000000" dpiy="120.000000"/>
+        <path>
+          "+extras\\seth.png"
+        </path>
+        
+      </level>
+      <level id='9'>
+        alana1 
+        <info dpix="120.000000" dpiy="120.000000"/>
+        <path>
+          "+extras\\alana1.png"
+        </path>
+        
+      </level>
+      <level id='10'>
+        alana2 
+        <info dpix="120.000000" dpiy="120.000000"/>
+        <path>
+          "+extras\\alana2.png"
+        </path>
+        
+      </level>
+      <level id='11'>
+        emmabg 
+        <info dpix="120.000000" dpiy="120.000000"/>
+        <path>
+          "+extras\\emmabg.png"
+        </path>
+        
+      </level>
+      <level id='12'>
+        emma 
+        <info dpix="120.000000" dpiy="120.000000"/>
+        <path>
+          "+extras\\emma.png"
+        </path>
+        
+      </level>
+      <level id='13'>
+        borders 
+        <info dpix="120.000000" dpiy="120.000000"/>
+        <path>
+          "+extras\\borders.png"
+        </path>
+        
+      </level>
+      <level id='14'>
+        0001 
+        <info dpix="120.000000" dpiy="120.000000"/>
+        <path>
+          "+extras\\0001.png"
+        </path>
+        
+      </level>
+      <level id='15'>
+        0002 
+        <info dpix="120.000000" dpiy="120.000000"/>
+        <path>
+          "+extras\\0002.png"
+        </path>
+        
+      </level>
+      <level id='16'>
+        0003 
+        <info dpix="120.000000" dpiy="120.000000"/>
+        <path>
+          "+extras\\0003.png"
+        </path>
+        
+      </level>
+      <level id='17'>
+        0004 
+        <info dpix="120.000000" dpiy="120.000000"/>
+        <path>
+          "+extras\\0004.png"
+        </path>
+        
+      </level>
+      <level id='18'>
+        0005 
+        <info dpix="120.000000" dpiy="120.000000"/>
+        <path>
+          "+extras\\0005.png"
+        </path>
+        
+      </level>
+      <level id='19'>
+        0006 
+        <info dpix="120.000000" dpiy="120.000000"/>
+        <path>
+          "+extras\\0006.png"
+        </path>
+        
+      </level>
+      <level id='20'>
+        0007 
+        <info dpix="120.000000" dpiy="120.000000"/>
+        <path>
+          "+extras\\0007.png"
+        </path>
+        
+      </level>
+      <level id='21'>
+        0008 
+        <info dpix="120.000000" dpiy="120.000000"/>
+        <path>
+          "+extras\\0008.png"
+        </path>
+        
+      </level>
+      <level id='22'>
+        0009 
+        <info dpix="120.000000" dpiy="120.000000"/>
+        <path>
+          "+extras\\0009.png"
+        </path>
+        
+      </level>
+      <level id='23'>
+        0010 
+        <info dpix="120.000000" dpiy="120.000000"/>
+        <path>
+          "+extras\\0010.png"
+        </path>
+        
+      </level>
+      <level id='24'>
+        0011 
+        <info dpix="120.000000" dpiy="120.000000"/>
+        <path>
+          "+extras\\0011.png"
+        </path>
+        
+      </level>
+      <level id='25'>
+        0012 
+        <info dpix="120.000000" dpiy="120.000000"/>
+        <path>
+          "+extras\\0012.png"
+        </path>
+        
+      </level>
+      <level id='26'>
+        0013 
+        <info dpix="120.000000" dpiy="120.000000"/>
+        <path>
+          "+extras\\0013.png"
+        </path>
+        
+      </level>
+      <level id='27'>
+        0014 
+        <info dpix="120.000000" dpiy="120.000000"/>
+        <path>
+          "+extras\\0014.png"
+        </path>
+        
+      </level>
+      <level id='28'>
+        15 
+        <info dpix="120.000000" dpiy="120.000000"/>
+        <path>
+          "+extras\\15.png"
+        </path>
+        
+      </level>
+      <level id='29'>
+        extention 
+        <info dpix="120.000000" dpiy="120.000000"/>
+        <path>
+          "+extras\\extention.png"
+        </path>
+        
+      </level>
+      <level id='30'>
+        saku 
+        <info dpix="120.000000" dpiy="120.000000"/>
+        <path>
+          "+extras\\saku.png"
+        </path>
+        
+      </level>
+      <level id='31'>
+        sakubg 
+        <info dpix="120.000000" dpiy="120.000000"/>
+        <path>
+          "+extras\\sakubg.png"
+        </path>
+        
+      </level>
+      <level id='32'>
+        run1 
+        <info dpix="120.000000" dpiy="120.000000"/>
+        <path>
+          "+extras\\run1.png"
+        </path>
+        
+      </level>
+      <level id='33'>
+        "__867-7"
+        <info dpix="120.000000" dpiy="120.000000"/>
+        <path>
+          "+extras\\__867-7.png"
+        </path>
+        
+      </level>
+      <level id='34'>
+        "__869-9"
+        <info dpix="120.000000" dpiy="120.000000"/>
+        <path>
+          "+extras\\__869-9.png"
+        </path>
+        
+      </level>
+      <level id='35'>
+        "__840-843"
+        <info dpix="120.000000" dpiy="120.000000"/>
+        <path>
+          "+extras\\__840-843.png"
+        </path>
+        
+      </level>
+      <level id='36'>
+        "__870-0"
+        <info dpix="120.000000" dpiy="120.000000"/>
+        <path>
+          "+extras\\__870-0.png"
+        </path>
+        
+      </level>
+      <level id='37'>
+        "__868-8"
+        <info dpix="120.000000" dpiy="120.000000"/>
+        <path>
+          "+extras\\__868-8.png"
+        </path>
+        
+      </level>
+      <level id='38'>
+        "__864-865"
+        <info dpix="120.000000" dpiy="120.000000"/>
+        <path>
+          "+extras\\__864-865.png"
+        </path>
+        
+      </level>
+      <level id='39'>
+        "__844-847+875-879"
+        <info dpix="120.000000" dpiy="120.000000"/>
+        <path>
+          "+extras\\__844-847+875-879.png"
+        </path>
+        
+      </level>
+      <level id='40'>
+        "__860-863"
+        <info dpix="120.000000" dpiy="120.000000"/>
+        <path>
+          "+extras\\__860-863.png"
+        </path>
+        
+      </level>
+      <level id='41'>
+        "__866-6"
+        <info dpix="120.000000" dpiy="120.000000"/>
+        <path>
+          "+extras\\__866-6.png"
+        </path>
+        
+      </level>
+      <level id='42'>
+        "__852-855+871"
+        <info dpix="120.000000" dpiy="120.000000"/>
+        <path>
+          "+extras\\__852-855+871.png"
+        </path>
+        
+      </level>
+      <level id='43'>
+        "__848-851+856-859+872-874"
+        <info dpix="120.000000" dpiy="120.000000"/>
+        <path>
+          "+extras\\__848-851+856-859+872-874.png"
+        </path>
+        
+      </level>
+      <level id='44'>
+        "_880-882"
+        <info dpix="120.000000" dpiy="120.000000"/>
+        <path>
+          "+extras\\_880-882.png"
+        </path>
+        
+      </level>
+      <level id='45'>
+        "_883-885"
+        <info dpix="120.000000" dpiy="120.000000"/>
+        <path>
+          "+extras\\_883-885.png"
+        </path>
+        
+      </level>
+      <level id='46'>
+        "_886-888"
+        <info dpix="120.000000" dpiy="120.000000"/>
+        <path>
+          "+extras\\_886-888.png"
+        </path>
+        
+      </level>
+      <level id='47'>
+        "_889-891"
+        <info dpix="120.000000" dpiy="120.000000"/>
+        <path>
+          "+extras\\_889-891.png"
+        </path>
+        
+      </level>
+      <level id='48'>
+        "_892-894"
+        <info dpix="120.000000" dpiy="120.000000"/>
+        <path>
+          "+extras\\_892-894.png"
+        </path>
+        
+      </level>
+      <level id='49'>
+        "_895-897"
+        <info dpix="120.000000" dpiy="120.000000"/>
+        <path>
+          "+extras\\_895-897.png"
+        </path>
+        
+      </level>
+      <level id='50'>
+        "_898-900"
+        <info dpix="120.000000" dpiy="120.000000"/>
+        <path>
+          "+extras\\_898-900.png"
+        </path>
+        
+      </level>
+      <level id='51'>
+        "_901-903"
+        <info dpix="120.000000" dpiy="120.000000"/>
+        <path>
+          "+extras\\_901-903.png"
+        </path>
+        
+      </level>
+      <level id='52'>
+        "_904-4"
+        <info dpix="120.000000" dpiy="120.000000"/>
+        <path>
+          "+extras\\_904-4.png"
+        </path>
+        
+      </level>
+      <level id='53'>
+        "_905-906"
+        <info dpix="120.000000" dpiy="120.000000"/>
+        <path>
+          "+extras\\_905-906.png"
+        </path>
+        
+      </level>
+      <level id='54'>
+        "_907-908"
+        <info dpix="120.000000" dpiy="120.000000"/>
+        <path>
+          "+extras\\_907-908.png"
+        </path>
+        
+      </level>
+      <level id='55'>
+        "_909-910"
+        <info dpix="120.000000" dpiy="120.000000"/>
+        <path>
+          "+extras\\_909-910.png"
+        </path>
+        
+      </level>
+      <level id='56'>
+        "_911-913+917-919"
+        <info dpix="120.000000" dpiy="120.000000"/>
+        <path>
+          "+extras\\_911-913+917-919.png"
+        </path>
+        
+      </level>
+      <level id='57'>
+        "_914-916"
+        <info dpix="120.000000" dpiy="120.000000"/>
+        <path>
+          "+extras\\_914-916.png"
+        </path>
+        
+      </level>
+      <level id='58'>
+        "__920-6s"
+        <info dpix="120.000000" dpiy="120.000000"/>
+        <path>
+          "+extras\\__920-6s.png"
+        </path>
+        
+      </level>
+      <level id='59'>
+        "__923-7s"
+        <info dpix="120.000000" dpiy="120.000000"/>
+        <path>
+          "+extras\\__923-7s.png"
+        </path>
+        
+      </level>
+      <level id='60'>
+        "__926-3s"
+        <info dpix="120.000000" dpiy="120.000000"/>
+        <path>
+          "+extras\\__926-3s.png"
+        </path>
+        
+      </level>
+      <level id='61'>
+        "__940-c"
+        <info dpix="120.000000" dpiy="120.000000"/>
+        <path>
+          "+extras\\__940-c.png"
+        </path>
+        
+      </level>
+      <level id='62'>
+        "__946-0"
+        <info dpix="120.000000" dpiy="120.000000"/>
+        <path>
+          "+extras\\__946-0.png"
+        </path>
+        
+      </level>
+      <level id='63'>
+        f 
+        <info dpix="120.000000" dpiy="120.000000"/>
+        <path>
+          "+extras\\f.png"
+        </path>
+        
+      </level>
+      <level id='64'>
+        "__1044-1050"
+        <info dpix="120.000000" dpiy="120.000000"/>
+        <path>
+          "+extras\\__1044-1050.png"
+        </path>
+        
+      </level>
+      <level id='65'>
+        "__1051-1073+1077-1079"
+        <info dpix="120.000000" dpiy="120.000000"/>
+        <path>
+          "+extras\\__1051-1073+1077-1079.png"
+        </path>
+        
+      </level>
+      <level id='66'>
+        "__1074-1076"
+        <info dpix="120.000000" dpiy="120.000000"/>
+        <path>
+          "+extras\\__1074-1076.png"
+        </path>
+        
+      </level>
+      <level id='67'>
+        "__1080-1081"
+        <info dpix="120.000000" dpiy="120.000000"/>
+        <path>
+          "+extras\\__1080-1081.png"
+        </path>
+        
+      </level>
+      <level id='68'>
+        "__1082-2"
+        <info dpix="120.000000" dpiy="120.000000"/>
+        <path>
+          "+extras\\__1082-2.png"
+        </path>
+        
+      </level>
+      <level id='69'>
+        "__1083-3"
+        <info dpix="120.000000" dpiy="120.000000"/>
+        <path>
+          "+extras\\__1083-3.png"
+        </path>
+        
+      </level>
+      <level id='70'>
+        "__1084-4"
+        <info dpix="120.000000" dpiy="120.000000"/>
+        <path>
+          "+extras\\__1084-4.png"
+        </path>
+        
+      </level>
+      <level id='71'>
+        "__1085-5"
+        <info dpix="120.000000" dpiy="120.000000"/>
+        <path>
+          "+extras\\__1085-5.png"
+        </path>
+        
+      </level>
+      <level id='72'>
+        "__1086-6"
+        <info dpix="120.000000" dpiy="120.000000"/>
+        <path>
+          "+extras\\__1086-6.png"
+        </path>
+        
+      </level>
+      <level id='73'>
+        "__1087-7"
+        <info dpix="120.000000" dpiy="120.000000"/>
+        <path>
+          "+extras\\__1087-7.png"
+        </path>
+        
+      </level>
+      <level id='74'>
+        "__1088-8"
+        <info dpix="120.000000" dpiy="120.000000"/>
+        <path>
+          "+extras\\__1088-8.png"
+        </path>
+        
+      </level>
+      <level id='75'>
+        "__1089-1091"
+        <info dpix="120.000000" dpiy="120.000000"/>
+        <path>
+          "+extras\\__1089-1091.png"
+        </path>
+        
+      </level>
+      <level id='76'>
+        "__1092-1119"
+        <info dpix="120.000000" dpiy="120.000000"/>
+        <path>
+          "+extras\\__1092-1119.png"
+        </path>
+        
+      </level>
+      <level id='77'>
+        "__1120-1138+1142-1159"
+        <info dpix="120.000000" dpiy="120.000000"/>
+        <path>
+          "+extras\\__1120-1138+1142-1159.png"
+        </path>
+        
+      </level>
+      <level id='78'>
+        "__1139+1141"
+        <info dpix="120.000000" dpiy="120.000000"/>
+        <path>
+          "+extras\\__1139+1141.png"
+        </path>
+        
+      </level>
+      <level id='79'>
+        "__1140-0"
+        <info dpix="120.000000" dpiy="120.000000"/>
+        <path>
+          "+extras\\__1140-0.png"
+        </path>
+        
+      </level>
+      <level id='80'>
+        "__1160-1162"
+        <info dpix="120.000000" dpiy="120.000000"/>
+        <path>
+          "+extras\\__1160-1162.png"
+        </path>
+        
+      </level>
+      <level id='81'>
+        "__1163-1165"
+        <info dpix="120.000000" dpiy="120.000000"/>
+        <path>
+          "+extras\\__1163-1165.png"
+        </path>
+        
+      </level>
+      <level id='82'>
+        "__1166-1168"
+        <info dpix="120.000000" dpiy="120.000000"/>
+        <path>
+          "+extras\\__1166-1168.png"
+        </path>
+        
+      </level>
+      <level id='83'>
+        "__1169-1171"
+        <info dpix="120.000000" dpiy="120.000000"/>
+        <path>
+          "+extras\\__1169-1171.png"
+        </path>
+        
+      </level>
+      <level id='84'>
+        white 
+        <info dpix="120.000000" dpiy="120.000000"/>
+        <path>
+          "+extras\\white.png"
+        </path>
+        
+      </level>
+      <level id='85'>
+        run 
+        <info dpix="120.000000" dpiy="120.000000"/>
+        <path>
+          "+extras\\run..png"
+        </path>
+        
+      </level>
+      <level id='86'>
+        alanas 
+        <info dpix="120.000000" dpiy="120.000000"/>
+        <path>
+          "+extras\\alanas..png"
+        </path>
+        
+      </level>
+      <level id='87'>
+        lyrics 
+        <info dpix="120.000000" dpiy="120.000000"/>
+        <path>
+          "+extras\\lyrics..png"
+        </path>
+        
+      </level>
+      
+    </levels>
+    <folder name="Cast" type="default">
+      <levels>
+        <level id='24'/><level id='52'/><level id='56'/><level id='57'/><level id='41'/><level id='44'/><level id='27'/><level id='46'/><level id='60'/><level id='65'/><level id='28'/><level id='73'/><level id='59'/><level id='75'/><level id='30'/><level id='37'/><level id='35'/><level id='38'/><level id='77'/><level id='47'/><level id='25'/><level id='34'/><level id='39'/><level id='51'/><level id='53'/><level id='58'/><level id='64'/><level id='23'/><level id='45'/><level id='43'/><level id='50'/><level id='63'/><level id='74'/><level id='49'/><level id='55'/><level id='67'/><level id='78'/><level id='79'/><level id='80'/><level id='61'/><level id='81'/><level id='82'/><level id='83'/><level id='31'/><level id='69'/><level id='33'/><level id='42'/><level id='62'/><level id='70'/><level id='29'/><level id='66'/><level id='36'/><level id='72'/><level id='76'/><level id='71'/><level id='68'/><level id='84'/><level id='85'/><level id='86'/><level id='26'/><level id='48'/><level id='54'/><level id='32'/><level id='40'/><level id='21'/><level id='22'/><level id='3'/><level id='15'/><level id='4'/><level id='18'/><level id='6'/><level id='2'/><level id='9'/><level id='10'/><level id='8'/><level id='16'/><level id='20'/><level id='5'/><level id='13'/><level id='11'/><level id='12'/><level id='14'/><level id='17'/><level id='19'/><level id='7'/><level id='87'/>
+      </levels>
+      </folder>
+    <folder name="Audio">
+      <levels>
+        <soundLevel id='1'/>
+      </levels>
+      </folder>
+    </levelSet>
+  <xsheet>
+    <columns>
+      <soundColumn id='88'>
+        0.4 1 
+        <SoundCells>
+          0 0 0 <soundLevel id='1'/>
+        </SoundCells>
+        0 
+      </soundColumn>
+      <levelColumn id='89'>
+        
+        <status>
+          0 
+        </status>
+        <cells>
+          <cell>
+            839 40 <level id='2'/>"-"0 
+          </cell>
+          <cell>
+            879 40 <level id='3'/>"-"0 
+          </cell>
+          <cell>
+            919 41 <level id='11'/>"-"0 
+          </cell>
+          <cell>
+            960 40 <level id='4'/>"-"0 
+          </cell>
+          <cell>
+            1000 12 <level id='14'/>"-"0 
+          </cell>
+          <cell>
+            1012 4 <level id='15'/>"-"0 
+          </cell>
+          <cell>
+            1016 3 <level id='16'/>"-"0 
+          </cell>
+          <cell>
+            1019 2 <level id='17'/>"-"0 
+          </cell>
+          <cell>
+            1021 2 <level id='18'/>"-"0 
+          </cell>
+          <cell>
+            1023 1 <level id='19'/>"-"0 
+          </cell>
+          <cell>
+            1024 1 <level id='20'/>"-"0 
+          </cell>
+          <cell>
+            1025 1 <level id='21'/>"-"0 
+          </cell>
+          <cell>
+            1026 1 <level id='22'/>"-"0 
+          </cell>
+          <cell>
+            1027 1 <level id='23'/>"-"0 
+          </cell>
+          <cell>
+            1028 2 <level id='24'/>"-"0 
+          </cell>
+          <cell>
+            1030 2 <level id='25'/>"-"0 
+          </cell>
+          <cell>
+            1032 3 <level id='26'/>"-"0 
+          </cell>
+          <cell>
+            1035 4 <level id='27'/>"-"0 
+          </cell>
+          <cell>
+            1039 4 <level id='28'/>"-"0 
+          </cell>
+          <cell>
+            1043 91 <level id='29'/>"-"0 
+          </cell>
+          <cell>
+            1134 56 <level id='31'/>"-"0 
+          </cell>
+          <cell>
+            1190 168 <level id='32'/>"-"0 
+          </cell>
+          </cells>
+        <fx>
+          <Toonz_columnFx id='90'>
+            
+            <params>
+              </params>
+            <ports>
+              </ports>
+            <dagNodePos>
+              25005 25005 
+            </dagNodePos>
+            <numberId>
+              0 
+            </numberId>
+            <name>
+              LevelColumn 
+            </name>
+            <fxId>
+              "" 
+            </fxId>
+            <opened>
+              0 
+            </opened>
+            
+          </Toonz_columnFx>
+          
+        </fx>
+        
+      </levelColumn>
+      <levelColumn id='91'>
+        
+        <status>
+          0 
+        </status>
+        <cells>
+          <cell>
+            839 4 <level id='35'/>"-"0 
+          </cell>
+          <cell>
+            843 4 <level id='39'/>"-"0 
+          </cell>
+          <cell>
+            847 4 <level id='43'/>"-"0 
+          </cell>
+          <cell>
+            851 4 <level id='42'/>"-"0 
+          </cell>
+          <cell>
+            855 4 <level id='43'/>"-"0 
+          </cell>
+          <cell>
+            859 4 <level id='40'/>"-"0 
+          </cell>
+          <cell>
+            863 2 <level id='38'/>"-"0 
+          </cell>
+          <cell>
+            865 1 <level id='41'/>"-"0 
+          </cell>
+          <cell>
+            866 1 <level id='33'/>"-"0 
+          </cell>
+          <cell>
+            867 1 <level id='37'/>"-"0 
+          </cell>
+          <cell>
+            868 1 <level id='34'/>"-"0 
+          </cell>
+          <cell>
+            869 1 <level id='36'/>"-"0 
+          </cell>
+          <cell>
+            870 1 <level id='42'/>"-"0 
+          </cell>
+          <cell>
+            871 3 <level id='43'/>"-"0 
+          </cell>
+          <cell>
+            874 5 <level id='39'/>"-"0 
+          </cell>
+          <cell>
+            879 3 <level id='44'/>"-"0 
+          </cell>
+          <cell>
+            882 3 <level id='45'/>"-"0 
+          </cell>
+          <cell>
+            885 3 <level id='46'/>"-"0 
+          </cell>
+          <cell>
+            888 3 <level id='47'/>"-"0 
+          </cell>
+          <cell>
+            891 3 <level id='48'/>"-"0 
+          </cell>
+          <cell>
+            894 3 <level id='49'/>"-"0 
+          </cell>
+          <cell>
+            897 3 <level id='50'/>"-"0 
+          </cell>
+          <cell>
+            900 3 <level id='51'/>"-"0 
+          </cell>
+          <cell>
+            903 1 <level id='52'/>"-"0 
+          </cell>
+          <cell>
+            904 2 <level id='53'/>"-"0 
+          </cell>
+          <cell>
+            906 2 <level id='54'/>"-"0 
+          </cell>
+          <cell>
+            908 2 <level id='55'/>"-"0 
+          </cell>
+          <cell>
+            910 3 <level id='56'/>"-"0 
+          </cell>
+          <cell>
+            913 3 <level id='57'/>"-"0 
+          </cell>
+          <cell>
+            916 3 <level id='56'/>"-"0 
+          </cell>
+          <cell>
+            919 3 <level id='58'/>"-"0 
+          </cell>
+          <cell>
+            922 3 <level id='59'/>"-"0 
+          </cell>
+          <cell>
+            925 3 <level id='60'/>"-"0 
+          </cell>
+          <cell>
+            928 3 <level id='58'/>"-"0 
+          </cell>
+          <cell>
+            931 3 <level id='59'/>"-"0 
+          </cell>
+          <cell>
+            934 3 <level id='60'/>"-"0 
+          </cell>
+          <cell>
+            937 2 <level id='58'/>"-"0 
+          </cell>
+          <cell>
+            939 3 <level id='61'/>"-"0 
+          </cell>
+          <cell>
+            942 3 <level id='60'/>"-"0 
+          </cell>
+          <cell>
+            945 12 <level id='62'/>"-"0 
+          </cell>
+          <cell>
+            957 3 <level id='59'/>"-"0 
+          </cell>
+          <cell>
+            960 3 <level id='9'/>"-"0 
+          </cell>
+          <cell>
+            963 3 <level id='86'/>0964 0 
+          </cell>
+          <cell>
+            966 3 <level id='86'/>0967 0 
+          </cell>
+          <cell>
+            969 3 <level id='86'/>0970 0 
+          </cell>
+          <cell>
+            972 3 <level id='86'/>0973 0 
+          </cell>
+          <cell>
+            975 3 <level id='86'/>0976 0 
+          </cell>
+          <cell>
+            978 3 <level id='86'/>0979 0 
+          </cell>
+          <cell>
+            981 3 <level id='86'/>0982 0 
+          </cell>
+          <cell>
+            984 3 <level id='86'/>0985 0 
+          </cell>
+          <cell>
+            987 3 <level id='86'/>0988 0 
+          </cell>
+          <cell>
+            990 3 <level id='86'/>0991 0 
+          </cell>
+          <cell>
+            993 3 <level id='86'/>0994 0 
+          </cell>
+          <cell>
+            996 3 <level id='86'/>0997 0 
+          </cell>
+          <cell>
+            999 1 <level id='86'/>1000 0 
+          </cell>
+          <cell>
+            1043 7 <level id='64'/>"-"0 
+          </cell>
+          <cell>
+            1050 23 <level id='65'/>"-"0 
+          </cell>
+          <cell>
+            1073 3 <level id='66'/>"-"0 
+          </cell>
+          <cell>
+            1076 3 <level id='65'/>"-"0 
+          </cell>
+          <cell>
+            1079 2 <level id='67'/>"-"0 
+          </cell>
+          <cell>
+            1081 1 <level id='68'/>"-"0 
+          </cell>
+          <cell>
+            1082 1 <level id='69'/>"-"0 
+          </cell>
+          <cell>
+            1083 1 <level id='70'/>"-"0 
+          </cell>
+          <cell>
+            1084 1 <level id='71'/>"-"0 
+          </cell>
+          <cell>
+            1085 1 <level id='72'/>"-"0 
+          </cell>
+          <cell>
+            1086 1 <level id='73'/>"-"0 
+          </cell>
+          <cell>
+            1087 1 <level id='74'/>"-"0 
+          </cell>
+          <cell>
+            1088 3 <level id='75'/>"-"0 
+          </cell>
+          <cell>
+            1091 43 <level id='76'/>"-"0 
+          </cell>
+          <cell>
+            1134 4 <level id='77'/>"-"0 
+          </cell>
+          <cell>
+            1138 1 <level id='78'/>"-"0 
+          </cell>
+          <cell>
+            1139 1 <level id='79'/>"-"0 
+          </cell>
+          <cell>
+            1140 1 <level id='78'/>"-"0 
+          </cell>
+          <cell>
+            1141 18 <level id='77'/>"-"0 
+          </cell>
+          <cell>
+            1159 3 <level id='80'/>"-"0 
+          </cell>
+          <cell>
+            1162 3 <level id='81'/>"-"0 
+          </cell>
+          <cell>
+            1165 3 <level id='82'/>"-"0 
+          </cell>
+          <cell>
+            1168 3 <level id='83'/>"-"0 
+          </cell>
+          <cell>
+            1190 3 <level id='85'/>1192 0 
+          </cell>
+          <cell>
+            1193 3 <level id='85'/>1195 0 
+          </cell>
+          <cell>
+            1196 3 <level id='85'/>1198 0 
+          </cell>
+          <cell>
+            1199 3 <level id='85'/>1201 0 
+          </cell>
+          <cell>
+            1202 2 <level id='85'/>1204 0 
+          </cell>
+          <cell>
+            1204 3 <level id='85'/>1207 0 
+          </cell>
+          <cell>
+            1207 3 <level id='85'/>1210 0 
+          </cell>
+          <cell>
+            1210 4 <level id='85'/>1213 0 
+          </cell>
+          <cell>
+            1214 3 <level id='85'/>1216 0 
+          </cell>
+          <cell>
+            1217 3 <level id='85'/>1219 0 
+          </cell>
+          <cell>
+            1220 3 <level id='85'/>1222 0 
+          </cell>
+          <cell>
+            1223 4 <level id='85'/>1225 0 
+          </cell>
+          <cell>
+            1227 2 <level id='85'/>1228 0 
+          </cell>
+          <cell>
+            1229 3 <level id='85'/>1231 0 
+          </cell>
+          <cell>
+            1232 3 <level id='85'/>1234 0 
+          </cell>
+          <cell>
+            1235 4 <level id='85'/>1237 0 
+          </cell>
+          <cell>
+            1239 2 <level id='85'/>1240 0 
+          </cell>
+          <cell>
+            1241 3 <level id='85'/>1243 0 
+          </cell>
+          <cell>
+            1244 3 <level id='85'/>1246 0 
+          </cell>
+          <cell>
+            1247 4 <level id='85'/>1249 0 
+          </cell>
+          <cell>
+            1251 2 <level id='85'/>1252 0 
+          </cell>
+          <cell>
+            1253 3 <level id='85'/>1255 0 
+          </cell>
+          <cell>
+            1256 3 <level id='85'/>1258 0 
+          </cell>
+          <cell>
+            1259 3 <level id='85'/>1261 0 
+          </cell>
+          <cell>
+            1262 3 <level id='85'/>1264 0 
+          </cell>
+          <cell>
+            1265 3 <level id='85'/>1267 0 
+          </cell>
+          <cell>
+            1268 3 <level id='85'/>1270 0 
+          </cell>
+          <cell>
+            1271 3 <level id='85'/>1273 0 
+          </cell>
+          <cell>
+            1274 3 <level id='85'/>1276 0 
+          </cell>
+          <cell>
+            1277 3 <level id='85'/>1279 0 
+          </cell>
+          <cell>
+            1280 3 <level id='85'/>1282 0 
+          </cell>
+          <cell>
+            1283 3 <level id='85'/>1285 0 
+          </cell>
+          <cell>
+            1286 3 <level id='85'/>1288 0 
+          </cell>
+          <cell>
+            1289 3 <level id='85'/>1291 0 
+          </cell>
+          <cell>
+            1292 3 <level id='85'/>1294 0 
+          </cell>
+          <cell>
+            1295 3 <level id='85'/>1297 0 
+          </cell>
+          <cell>
+            1298 3 <level id='85'/>1300 0 
+          </cell>
+          <cell>
+            1301 3 <level id='85'/>1303 0 
+          </cell>
+          <cell>
+            1304 3 <level id='85'/>1306 0 
+          </cell>
+          <cell>
+            1307 3 <level id='85'/>1309 0 
+          </cell>
+          <cell>
+            1310 3 <level id='85'/>1312 0 
+          </cell>
+          <cell>
+            1313 3 <level id='85'/>1315 0 
+          </cell>
+          <cell>
+            1316 3 <level id='85'/>1318 0 
+          </cell>
+          <cell>
+            1319 3 <level id='85'/>1321 0 
+          </cell>
+          <cell>
+            1322 3 <level id='85'/>1324 0 
+          </cell>
+          <cell>
+            1325 3 <level id='85'/>1327 0 
+          </cell>
+          <cell>
+            1328 3 <level id='85'/>1330 0 
+          </cell>
+          <cell>
+            1331 3 <level id='85'/>1333 0 
+          </cell>
+          <cell>
+            1334 3 <level id='85'/>1336 0 
+          </cell>
+          <cell>
+            1337 3 <level id='85'/>1339 0 
+          </cell>
+          <cell>
+            1340 3 <level id='85'/>1342 0 
+          </cell>
+          <cell>
+            1343 3 <level id='85'/>1345 0 
+          </cell>
+          <cell>
+            1346 3 <level id='85'/>1348 0 
+          </cell>
+          <cell>
+            1349 3 <level id='85'/>1351 0 
+          </cell>
+          <cell>
+            1352 3 <level id='85'/>1354 0 
+          </cell>
+          <cell>
+            1355 3 <level id='85'/>1357 0 
+          </cell>
+          </cells>
+        <fx>
+          <Toonz_columnFx id='92'>
+            
+            <params>
+              </params>
+            <ports>
+              </ports>
+            <dagNodePos>
+              25005 24955 
+            </dagNodePos>
+            <numberId>
+              0 
+            </numberId>
+            <name>
+              LevelColumn 
+            </name>
+            <fxId>
+              "" 
+            </fxId>
+            <opened>
+              0 
+            </opened>
+            
+          </Toonz_columnFx>
+          
+        </fx>
+        
+      </levelColumn>
+      <levelColumn id='93'>
+        
+        <status>
+          0 
+        </status>
+        <cells>
+          <cell>
+            839 20 <level id='6'/>0840 0 
+          </cell>
+          <cell>
+            859 4 <level id='6'/>0841 0 
+          </cell>
+          <cell>
+            863 3 <level id='6'/>0845 0 
+          </cell>
+          <cell>
+            866 3 <level id='6'/>0848 1 
+          </cell>
+          <cell>
+            869 2 <level id='6'/>0844 -4 
+          </cell>
+          <cell>
+            871 8 <level id='6'/>0840 0 
+          </cell>
+          <cell>
+            879 18 <level id='6'/>0883 0 
+          </cell>
+          <cell>
+            897 3 <level id='6'/>0881 0 
+          </cell>
+          <cell>
+            900 3 <level id='6'/>0882 0 
+          </cell>
+          <cell>
+            903 3 <level id='6'/>0885 0 
+          </cell>
+          <cell>
+            906 2 <level id='6'/>0886 0 
+          </cell>
+          <cell>
+            908 2 <level id='6'/>0887 0 
+          </cell>
+          <cell>
+            910 9 <level id='6'/>0884 0 
+          </cell>
+          <cell>
+            963 3 <level id='7'/>0962 0 
+          </cell>
+          <cell>
+            966 3 <level id='7'/>0963 0 
+          </cell>
+          <cell>
+            969 3 <level id='7'/>0964 0 
+          </cell>
+          <cell>
+            972 3 <level id='7'/>1360 0 
+          </cell>
+          <cell>
+            975 3 <level id='7'/>1361 0 
+          </cell>
+          <cell>
+            978 3 <level id='7'/>1362 0 
+          </cell>
+          <cell>
+            981 3 <level id='7'/>1363 0 
+          </cell>
+          <cell>
+            984 3 <level id='7'/>1364 0 
+          </cell>
+          <cell>
+            987 3 <level id='7'/>1365 0 
+          </cell>
+          <cell>
+            990 3 <level id='7'/>1357 0 
+          </cell>
+          <cell>
+            993 3 <level id='7'/>1358 0 
+          </cell>
+          <cell>
+            996 3 <level id='7'/>0965 0 
+          </cell>
+          <cell>
+            999 1 <level id='7'/>1359 0 
+          </cell>
+          <cell>
+            1043 7 <level id='7'/>1043 0 
+          </cell>
+          <cell>
+            1050 23 <level id='7'/>1044 0 
+          </cell>
+          <cell>
+            1073 3 <level id='7'/>1074 0 
+          </cell>
+          <cell>
+            1076 3 <level id='7'/>1077 0 
+          </cell>
+          <cell>
+            1079 2 <level id='7'/>1045 0 
+          </cell>
+          <cell>
+            1081 2 <level id='7'/>1367 -321 
+          </cell>
+          <cell>
+            1083 2 <level id='7'/>1368 1 
+          </cell>
+          <cell>
+            1085 2 <level id='7'/>1372 4 
+          </cell>
+          <cell>
+            1087 2 <level id='7'/>1377 -3 
+          </cell>
+          <cell>
+            1089 2 <level id='7'/>1374 0 
+          </cell>
+          <cell>
+            1091 43 <level id='7'/>1375 0 
+          </cell>
+          <cell>
+            1134 4 <level id='7'/>1378 0 
+          </cell>
+          <cell>
+            1138 4 <level id='7'/>1139 1 
+          </cell>
+          <cell>
+            1142 17 <level id='7'/>1142 0 
+          </cell>
+          <cell>
+            1159 3 <level id='7'/>1126 0 
+          </cell>
+          <cell>
+            1162 3 <level id='7'/>1136 0 
+          </cell>
+          <cell>
+            1165 3 <level id='7'/>1137 0 
+          </cell>
+          <cell>
+            1168 3 <level id='7'/>1138 0 
+          </cell>
+          <cell>
+            1190 3 <level id='6'/>1194 0 
+          </cell>
+          <cell>
+            1193 3 <level id='6'/>1199 0 
+          </cell>
+          <cell>
+            1196 3 <level id='6'/>1200 0 
+          </cell>
+          <cell>
+            1199 3 <level id='7'/>0844 0 
+          </cell>
+          <cell>
+            1202 2 <level id='7'/>1201 0 
+          </cell>
+          <cell>
+            1204 3 <level id='7'/>1205 0 
+          </cell>
+          <cell>
+            1207 3 <level id='7'/>1208 0 
+          </cell>
+          <cell>
+            1210 4 <level id='7'/>1211 0 
+          </cell>
+          <cell>
+            1214 3 <level id='7'/>1215 0 
+          </cell>
+          <cell>
+            1217 3 <level id='7'/>1218 0 
+          </cell>
+          <cell>
+            1220 3 <level id='7'/>1221 0 
+          </cell>
+          <cell>
+            1223 4 <level id='7'/>1224 0 
+          </cell>
+          <cell>
+            1227 2 <level id='7'/>1227 0 
+          </cell>
+          <cell>
+            1229 3 <level id='7'/>1230 0 
+          </cell>
+          <cell>
+            1232 3 <level id='7'/>1233 0 
+          </cell>
+          <cell>
+            1235 4 <level id='7'/>1236 0 
+          </cell>
+          <cell>
+            1239 2 <level id='7'/>1240 0 
+          </cell>
+          <cell>
+            1241 3 <level id='7'/>1242 0 
+          </cell>
+          <cell>
+            1244 3 <level id='7'/>1245 0 
+          </cell>
+          <cell>
+            1247 4 <level id='7'/>1248 0 
+          </cell>
+          <cell>
+            1251 2 <level id='7'/>1259 0 
+          </cell>
+          <cell>
+            1253 3 <level id='7'/>1254 0 
+          </cell>
+          <cell>
+            1256 3 <level id='7'/>1257 0 
+          </cell>
+          <cell>
+            1259 3 <level id='7'/>1260 0 
+          </cell>
+          <cell>
+            1262 3 <level id='7'/>1263 0 
+          </cell>
+          <cell>
+            1265 3 <level id='7'/>1266 0 
+          </cell>
+          <cell>
+            1268 3 <level id='7'/>1252 0 
+          </cell>
+          <cell>
+            1271 3 <level id='7'/>1255 0 
+          </cell>
+          <cell>
+            1274 3 <level id='7'/>1258 0 
+          </cell>
+          <cell>
+            1277 3 <level id='7'/>1278 0 
+          </cell>
+          <cell>
+            1280 3 <level id='7'/>1281 0 
+          </cell>
+          <cell>
+            1283 3 <level id='7'/>1284 0 
+          </cell>
+          <cell>
+            1286 3 <level id='7'/>1287 0 
+          </cell>
+          <cell>
+            1289 3 <level id='7'/>1290 0 
+          </cell>
+          <cell>
+            1292 3 <level id='7'/>1291 0 
+          </cell>
+          <cell>
+            1295 3 <level id='7'/>1296 0 
+          </cell>
+          <cell>
+            1298 3 <level id='7'/>1299 0 
+          </cell>
+          <cell>
+            1301 3 <level id='7'/>1302 0 
+          </cell>
+          <cell>
+            1304 3 <level id='7'/>1305 0 
+          </cell>
+          <cell>
+            1307 3 <level id='7'/>1308 0 
+          </cell>
+          <cell>
+            1310 3 <level id='7'/>1320 0 
+          </cell>
+          <cell>
+            1313 3 <level id='7'/>1323 0 
+          </cell>
+          <cell>
+            1316 3 <level id='7'/>1326 0 
+          </cell>
+          <cell>
+            1319 3 <level id='7'/>1329 0 
+          </cell>
+          <cell>
+            1322 3 <level id='7'/>1333 0 
+          </cell>
+          <cell>
+            1325 3 <level id='7'/>1336 0 
+          </cell>
+          <cell>
+            1328 3 <level id='7'/>1339 0 
+          </cell>
+          <cell>
+            1331 3 <level id='7'/>1332 0 
+          </cell>
+          <cell>
+            1334 3 <level id='7'/>1335 0 
+          </cell>
+          <cell>
+            1337 3 <level id='7'/>1338 0 
+          </cell>
+          <cell>
+            1340 3 <level id='7'/>1341 0 
+          </cell>
+          <cell>
+            1343 3 <level id='7'/>1344 0 
+          </cell>
+          <cell>
+            1346 3 <level id='7'/>1347 0 
+          </cell>
+          <cell>
+            1349 3 <level id='7'/>1350 0 
+          </cell>
+          <cell>
+            1352 3 <level id='7'/>1353 0 
+          </cell>
+          <cell>
+            1355 3 <level id='7'/>1356 0 
+          </cell>
+          </cells>
+        <fx>
+          <Toonz_columnFx id='94'>
+            
+            <params>
+              </params>
+            <ports>
+              </ports>
+            <dagNodePos>
+              25005 24905 
+            </dagNodePos>
+            <numberId>
+              0 
+            </numberId>
+            <name>
+              LevelColumn 
+            </name>
+            <fxId>
+              "" 
+            </fxId>
+            <opened>
+              0 
+            </opened>
+            
+          </Toonz_columnFx>
+          
+        </fx>
+        
+      </levelColumn>
+      <levelColumn id='95'>
+        
+        <status>
+          0 
+        </status>
+        <cells>
+          <cell>
+            839 4 <level id='7'/>0841 0 
+          </cell>
+          <cell>
+            843 4 <level id='7'/>0843 0 
+          </cell>
+          <cell>
+            847 4 <level id='7'/>0848 0 
+          </cell>
+          <cell>
+            851 4 <level id='7'/>0845 0 
+          </cell>
+          <cell>
+            855 4 <level id='7'/>0848 0 
+          </cell>
+          <cell>
+            859 6 <level id='7'/>0845 0 
+          </cell>
+          <cell>
+            865 3 <level id='7'/>0848 0 
+          </cell>
+          <cell>
+            868 3 <level id='7'/>0845 0 
+          </cell>
+          <cell>
+            871 3 <level id='7'/>0848 0 
+          </cell>
+          <cell>
+            874 5 <level id='7'/>0843 0 
+          </cell>
+          <cell>
+            879 3 <level id='7'/>0880 0 
+          </cell>
+          <cell>
+            882 3 <level id='7'/>0883 0 
+          </cell>
+          <cell>
+            885 3 <level id='7'/>0886 0 
+          </cell>
+          <cell>
+            888 3 <level id='7'/>0889 0 
+          </cell>
+          <cell>
+            891 3 <level id='7'/>1379 0 
+          </cell>
+          <cell>
+            894 3 <level id='7'/>1380 0 
+          </cell>
+          <cell>
+            897 3 <level id='7'/>1381 0 
+          </cell>
+          <cell>
+            900 4 <level id='7'/>0892 0 
+          </cell>
+          <cell>
+            904 6 <level id='7'/>0896 0 
+          </cell>
+          <cell>
+            910 3 <level id='7'/>1382 0 
+          </cell>
+          <cell>
+            913 3 <level id='7'/>1383 0 
+          </cell>
+          <cell>
+            916 3 <level id='7'/>1384 0 
+          </cell>
+          <cell>
+            963 1 <level id='7'/>0961 0 
+          </cell>
+          </cells>
+        <fx>
+          <Toonz_columnFx id='96'>
+            
+            <params>
+              </params>
+            <ports>
+              </ports>
+            <dagNodePos>
+              25005 24855 
+            </dagNodePos>
+            <numberId>
+              0 
+            </numberId>
+            <name>
+              LevelColumn 
+            </name>
+            <fxId>
+              "" 
+            </fxId>
+            <opened>
+              0 
+            </opened>
+            
+          </Toonz_columnFx>
+          
+        </fx>
+        
+      </levelColumn>
+      <levelColumn id='97'>
+        
+        <status>
+          0 
+        </status>
+        <cells>
+          <cell>
+            1099 36 <level id='63'/>"-"0 
+          </cell>
+          <cell>
+            1160 45 <level id='84'/>"-"0 
+          </cell>
+          </cells>
+        <fx>
+          <Toonz_columnFx id='98'>
+            
+            <params>
+              </params>
+            <ports>
+              </ports>
+            <dagNodePos>
+              25005 24755 
+            </dagNodePos>
+            <numberId>
+              0 
+            </numberId>
+            <name>
+              LevelColumn 
+            </name>
+            <fxId>
+              "" 
+            </fxId>
+            <opened>
+              0 
+            </opened>
+            
+          </Toonz_columnFx>
+          
+        </fx>
+        
+      </levelColumn>
+      <levelColumn id='99'>
+        
+        <status>
+          0 
+        </status>
+        <cells>
+          <cell>
+            0 1610 <level id='13'/>"-"0 
+          </cell>
+          </cells>
+        <fx>
+          <Toonz_columnFx id='100'>
+            
+            <params>
+              </params>
+            <ports>
+              </ports>
+            <dagNodePos>
+              25005 24805 
+            </dagNodePos>
+            <numberId>
+              0 
+            </numberId>
+            <name>
+              LevelColumn 
+            </name>
+            <fxId>
+              "" 
+            </fxId>
+            <opened>
+              0 
+            </opened>
+            
+          </Toonz_columnFx>
+          
+        </fx>
+        
+      </levelColumn>
+      <levelColumn id='101'>
+        
+        <status>
+          0 
+        </status>
+        <cells>
+          <cell>
+            839 15 <level id='87'/>0150 0 
+          </cell>
+          <cell>
+            854 5 <level id='87'/>0151 0 
+          </cell>
+          <cell>
+            859 10 <level id='87'/>0152 0 
+          </cell>
+          <cell>
+            869 10 <level id='87'/>0153 0 
+          </cell>
+          <cell>
+            879 5 <level id='87'/>0154 0 
+          </cell>
+          <cell>
+            884 5 <level id='87'/>0155 0 
+          </cell>
+          <cell>
+            889 5 <level id='87'/>0156 0 
+          </cell>
+          <cell>
+            894 5 <level id='87'/>0157 0 
+          </cell>
+          <cell>
+            899 10 <level id='87'/>0158 0 
+          </cell>
+          <cell>
+            909 10 <level id='87'/>0159 0 
+          </cell>
+          <cell>
+            919 10 <level id='87'/>0160 0 
+          </cell>
+          <cell>
+            929 5 <level id='87'/>0161 0 
+          </cell>
+          <cell>
+            934 10 <level id='87'/>0162 0 
+          </cell>
+          <cell>
+            944 5 <level id='87'/>0163 0 
+          </cell>
+          <cell>
+            949 5 <level id='87'/>0164 0 
+          </cell>
+          <cell>
+            954 25 <level id='87'/>0165 0 
+          </cell>
+          <cell>
+            979 10 <level id='87'/>0166 0 
+          </cell>
+          <cell>
+            989 11 <level id='87'/>0167 0 
+          </cell>
+          <cell>
+            1000 9 <level id='87'/>0168 0 
+          </cell>
+          <cell>
+            1009 10 <level id='87'/>0169 0 
+          </cell>
+          <cell>
+            1019 10 <level id='87'/>0170 0 
+          </cell>
+          <cell>
+            1029 10 <level id='87'/>0171 0 
+          </cell>
+          <cell>
+            1039 10 <level id='87'/>0172 0 
+          </cell>
+          <cell>
+            1049 10 <level id='87'/>0173 0 
+          </cell>
+          <cell>
+            1059 10 <level id='87'/>0174 0 
+          </cell>
+          <cell>
+            1069 10 <level id='87'/>0175 0 
+          </cell>
+          <cell>
+            1079 10 <level id='87'/>0176 0 
+          </cell>
+          <cell>
+            1089 10 <level id='87'/>0177 0 
+          </cell>
+          <cell>
+            1099 10 <level id='87'/>0178 0 
+          </cell>
+          <cell>
+            1109 10 <level id='87'/>0179 0 
+          </cell>
+          <cell>
+            1119 40 <level id='87'/>0180 0 
+          </cell>
+          <cell>
+            1189 5 <level id='87'/>0181 0 
+          </cell>
+          <cell>
+            1194 5 <level id='87'/>0182 0 
+          </cell>
+          <cell>
+            1199 10 <level id='87'/>0183 0 
+          </cell>
+          <cell>
+            1209 10 <level id='87'/>0184 0 
+          </cell>
+          <cell>
+            1219 20 <level id='87'/>0185 0 
+          </cell>
+          <cell>
+            1239 10 <level id='87'/>0186 0 
+          </cell>
+          <cell>
+            1249 5 <level id='87'/>0187 0 
+          </cell>
+          <cell>
+            1254 10 <level id='87'/>0188 0 
+          </cell>
+          <cell>
+            1264 5 <level id='87'/>0189 0 
+          </cell>
+          <cell>
+            1269 5 <level id='87'/>0190 0 
+          </cell>
+          <cell>
+            1274 5 <level id='87'/>0191 0 
+          </cell>
+          <cell>
+            1279 10 <level id='87'/>0192 0 
+          </cell>
+          <cell>
+            1289 5 <level id='87'/>0193 0 
+          </cell>
+          <cell>
+            1294 10 <level id='87'/>0194 0 
+          </cell>
+          <cell>
+            1304 10 <level id='87'/>0195 0 
+          </cell>
+          <cell>
+            1314 5 <level id='87'/>0196 0 
+          </cell>
+          <cell>
+            1319 10 <level id='87'/>0197 0 
+          </cell>
+          <cell>
+            1329 5 <level id='87'/>0198 0 
+          </cell>
+          <cell>
+            1334 10 <level id='87'/>0199 0 
+          </cell>
+          <cell>
+            1344 10 <level id='87'/>0200 0 
+          </cell>
+          </cells>
+        <fx>
+          <Toonz_columnFx id='102'>
+            
+            <params>
+              </params>
+            <ports>
+              </ports>
+            <numberId>
+              0 
+            </numberId>
+            <name>
+              LevelColumn 
+            </name>
+            <fxId>
+              "" 
+            </fxId>
+            <opened>
+              0 
+            </opened>
+            
+          </Toonz_columnFx>
+          
+        </fx>
+        
+      </levelColumn>
+      
+    </columns>
+    <pegbars>
+      <pegbar activeboth="yes" id="Camera1">
+        <parent handle="B" id="None" parentHandle="B">
+          </parent>
+        <isOpened>
+          0 
+        </isOpened>
+        <center>
+          0 0 0 0 
+        </center>
+        <status>
+          0 
+        </status>
+        <sx>
+          <default>
+            1 
+          </default>
+          </sx>
+        <sy>
+          <default>
+            1 
+          </default>
+          </sy>
+        <sc>
+          <default>
+            1 
+          </default>
+          </sc>
+        <nodePos>
+          24500 25550 
+        </nodePos>
+        <camera>
+          <cameraSize>
+            16 9 
+          </cameraSize>
+          <cameraRes>
+            1920 1080 
+          </cameraRes>
+          <cameraXPrevalence>
+            1 
+          </cameraXPrevalence>
+          <interestRect>
+            0 0 -1 -1 
+          </interestRect>
+          </camera>
+        </pegbar>
+      <pegbar id="Table">
+        <parent handle="B" id="None" parentHandle="B">
+          </parent>
+        <isOpened>
+          0 
+        </isOpened>
+        <center>
+          0 0 0 0 
+        </center>
+        <status>
+          0 
+        </status>
+        <sx>
+          <default>
+            1 
+          </default>
+          </sx>
+        <sy>
+          <default>
+            1 
+          </default>
+          </sy>
+        <sc>
+          <default>
+            1 
+          </default>
+          </sc>
+        <nodePos>
+          24500 25500 
+        </nodePos>
+        </pegbar>
+      <pegbar id="Col1">
+        <parent handle="B" id="Table" parentHandle="B">
+          </parent>
+        <isOpened>
+          0 
+        </isOpened>
+        <center>
+          0 0 0 0 
+        </center>
+        <status>
+          0 
+        </status>
+        <sx>
+          <default>
+            1 
+          </default>
+          </sx>
+        <sy>
+          <default>
+            1 
+          </default>
+          </sy>
+        <sc>
+          <default>
+            1 
+          </default>
+          </sc>
+        <nodePos>
+          1.234e+09 5.678e+09 
+        </nodePos>
+        </pegbar>
+      <pegbar id="Col2">
+        <parent handle="B" id="Table" parentHandle="B">
+          </parent>
+        <isOpened>
+          0 
+        </isOpened>
+        <center>
+          0 0 0 0 
+        </center>
+        <status>
+          0 
+        </status>
+        <x>
+          <default>
+            0 
+          </default>
+          <keyframes>
+            <E>
+              1042 -0.00235755 0.333333 
+            </E>
+            <E>
+              <prev>
+                0 -0.333333 
+              </prev>
+              1043 0 12.6667 
+            </E>
+            <E>
+              <prev>
+                0 -12.6667 
+              </prev>
+              1080 0 3 
+            </E>
+            <E>
+              <prev>
+                0.0120148 -3 
+              </prev>
+              1089 0.0120148 9.66667 
+            </E>
+            <E>
+              <prev>
+                0.0120148 -9.66667 
+              </prev>
+              1133 0.0120148 0.333333 
+            </E>
+            <E>
+              <prev>
+                0.0103049 -0.333333 
+              </prev>
+              1134 0.0103049 23.3333 
+            </E>
+            <E>
+              <prev>
+                0.0171446 -23.3333 
+              </prev>
+              1189 0.0171446 0.333333 
+            </E>
+            <E>
+              <prev>
+                -0.000576102 -0.333333 
+              </prev>
+              1190 -0.000576102 14 
+            </E>
+            <E>
+              <prev>
+                -0.00103582 -14 
+              </prev>
+              1232 -0.00103582 41.6667 
+            </E>
+            <L>
+              <prev>
+                -0.00122411 -41.6667 
+              </prev>
+              1357 -0.00122411 
+            </L>
+            </keyframes>
+          </x>
+        <y>
+          <default>
+            0 
+          </default>
+          <keyframes>
+            <E>
+              1042 0.00221843 0.333333 
+            </E>
+            <E>
+              <prev>
+                2.09209 -0.333333 
+              </prev>
+              1043 2.09209 12.6667 
+            </E>
+            <E>
+              <prev>
+                2.08345 -12.6667 
+              </prev>
+              1080 2.08345 3 
+            </E>
+            <E>
+              <prev>
+                -2.10748 -3 
+              </prev>
+              1089 -2.10748 9.66667 
+            </E>
+            <E>
+              <prev>
+                -2.12201 -9.66667 
+              </prev>
+              1133 -2.12201 0.333333 
+            </E>
+            <E>
+              <prev>
+                0.00605797 -0.333333 
+              </prev>
+              1134 0.00605797 23.3333 
+            </E>
+            <E>
+              <prev>
+                0.00691296 -23.3333 
+              </prev>
+              1189 0.00691296 0.333333 
+            </E>
+            <E>
+              <prev>
+                2.11361 -0.333333 
+              </prev>
+              1190 2.11361 14 
+            </E>
+            <E>
+              <prev>
+                0.813889 -14 
+              </prev>
+              1232 0.813889 41.6667 
+            </E>
+            <L>
+              <prev>
+                0.0161754 -41.6667 
+              </prev>
+              1357 0.0161754 
+            </L>
+            </keyframes>
+          </y>
+        <z>
+          <default>
+            0 
+          </default>
+          <keyframes>
+            <E>
+              1042 0 0.333333 
+            </E>
+            <E>
+              <prev>
+                0 -0.333333 
+              </prev>
+              1043 0 12.6667 
+            </E>
+            <E>
+              <prev>
+                0 -12.6667 
+              </prev>
+              1080 0 3 
+            </E>
+            <E>
+              <prev>
+                0 -3 
+              </prev>
+              1089 0 9.66667 
+            </E>
+            <E>
+              <prev>
+                0 -9.66667 
+              </prev>
+              1133 0 0.333333 
+            </E>
+            <E>
+              <prev>
+                0 -0.333333 
+              </prev>
+              1134 0 23.3333 
+            </E>
+            <E>
+              <prev>
+                0 -23.3333 
+              </prev>
+              1189 0 0.333333 
+            </E>
+            <E>
+              <prev>
+                0 -0.333333 
+              </prev>
+              1190 0 14 
+            </E>
+            <E>
+              <prev>
+                0 -14 
+              </prev>
+              1232 0 41.6667 
+            </E>
+            <L>
+              <prev>
+                0 -41.6667 
+              </prev>
+              1357 0 
+            </L>
+            </keyframes>
+          </z>
+        <so>
+          <default>
+            0 
+          </default>
+          <keyframes>
+            <E>
+              1042 0 0.333333 
+            </E>
+            <E>
+              <prev>
+                0 -0.333333 
+              </prev>
+              1043 0 12.6667 
+            </E>
+            <E>
+              <prev>
+                0 -12.6667 
+              </prev>
+              1080 0 3 
+            </E>
+            <E>
+              <prev>
+                0 -3 
+              </prev>
+              1089 0 9.66667 
+            </E>
+            <E>
+              <prev>
+                0 -9.66667 
+              </prev>
+              1133 0 0.333333 
+            </E>
+            <E>
+              <prev>
+                0 -0.333333 
+              </prev>
+              1134 0 23.3333 
+            </E>
+            <E>
+              <prev>
+                0 -23.3333 
+              </prev>
+              1189 0 0.333333 
+            </E>
+            <E>
+              <prev>
+                0 -0.333333 
+              </prev>
+              1190 0 14 
+            </E>
+            <E>
+              <prev>
+                0 -14 
+              </prev>
+              1232 0 41.6667 
+            </E>
+            <L>
+              <prev>
+                0 -41.6667 
+              </prev>
+              1357 0 
+            </L>
+            </keyframes>
+          </so>
+        <sx>
+          <default>
+            1 
+          </default>
+          <keyframes>
+            <E>
+              1042 1 0.333333 
+            </E>
+            <E>
+              <prev>
+                1 -0.333333 
+              </prev>
+              1043 1 12.6667 
+            </E>
+            <E>
+              <prev>
+                1 -12.6667 
+              </prev>
+              1080 1 3 
+            </E>
+            <E>
+              <prev>
+                1 -3 
+              </prev>
+              1089 1 9.66667 
+            </E>
+            <E>
+              <prev>
+                1 -9.66667 
+              </prev>
+              1133 1 0.333333 
+            </E>
+            <E>
+              <prev>
+                1 -0.333333 
+              </prev>
+              1134 1 23.3333 
+            </E>
+            <E>
+              <prev>
+                1 -23.3333 
+              </prev>
+              1189 1 0.333333 
+            </E>
+            <E>
+              <prev>
+                1 -0.333333 
+              </prev>
+              1190 1 14 
+            </E>
+            <E>
+              <prev>
+                1 -14 
+              </prev>
+              1232 1 41.6667 
+            </E>
+            <L>
+              <prev>
+                1 -41.6667 
+              </prev>
+              1357 1 
+            </L>
+            </keyframes>
+          </sx>
+        <sy>
+          <default>
+            1 
+          </default>
+          <keyframes>
+            <E>
+              1042 1 0.333333 
+            </E>
+            <E>
+              <prev>
+                1 -0.333333 
+              </prev>
+              1043 1 12.6667 
+            </E>
+            <E>
+              <prev>
+                1 -12.6667 
+              </prev>
+              1080 1 3 
+            </E>
+            <E>
+              <prev>
+                1 -3 
+              </prev>
+              1089 1 9.66667 
+            </E>
+            <E>
+              <prev>
+                1 -9.66667 
+              </prev>
+              1133 1 0.333333 
+            </E>
+            <E>
+              <prev>
+                1 -0.333333 
+              </prev>
+              1134 1 23.3333 
+            </E>
+            <E>
+              <prev>
+                1 -23.3333 
+              </prev>
+              1189 1 0.333333 
+            </E>
+            <E>
+              <prev>
+                1 -0.333333 
+              </prev>
+              1190 1 14 
+            </E>
+            <E>
+              <prev>
+                0.8 -14 
+              </prev>
+              1232 0.8 41.6667 
+            </E>
+            <L>
+              <prev>
+                0.68 -41.6667 
+              </prev>
+              1357 0.68 
+            </L>
+            </keyframes>
+          </sy>
+        <sc>
+          <default>
+            1 
+          </default>
+          <keyframes>
+            <E>
+              1042 1 0.333333 
+            </E>
+            <E>
+              <prev>
+                1 -0.333333 
+              </prev>
+              1043 1 12.6667 
+            </E>
+            <E>
+              <prev>
+                1 -12.6667 
+              </prev>
+              1080 1 3 
+            </E>
+            <E>
+              <prev>
+                1 -3 
+              </prev>
+              1089 1 9.66667 
+            </E>
+            <E>
+              <prev>
+                1 -9.66667 
+              </prev>
+              1133 1 0.333333 
+            </E>
+            <E>
+              <prev>
+                1 -0.333333 
+              </prev>
+              1134 1 23.3333 
+            </E>
+            <E>
+              <prev>
+                1 -23.3333 
+              </prev>
+              1189 1 0.333333 
+            </E>
+            <E>
+              <prev>
+                1 -0.333333 
+              </prev>
+              1190 1 14 
+            </E>
+            <E>
+              <prev>
+                1.00005 -14 
+              </prev>
+              1232 1.00005 41.6667 
+            </E>
+            <L>
+              <prev>
+                1.00022 -41.6667 
+              </prev>
+              1357 1.00022 
+            </L>
+            </keyframes>
+          </sc>
+        <rot>
+          <default>
+            0 
+          </default>
+          <keyframes>
+            <E>
+              1042 0 0.333333 
+            </E>
+            <E>
+              <prev>
+                0 -0.333333 
+              </prev>
+              1043 0 12.6667 
+            </E>
+            <E>
+              <prev>
+                0 -12.6667 
+              </prev>
+              1080 0 3 
+            </E>
+            <E>
+              <prev>
+                0 -3 
+              </prev>
+              1089 0 9.66667 
+            </E>
+            <E>
+              <prev>
+                0 -9.66667 
+              </prev>
+              1133 0 0.333333 
+            </E>
+            <E>
+              <prev>
+                0 -0.333333 
+              </prev>
+              1134 0 23.3333 
+            </E>
+            <E>
+              <prev>
+                0 -23.3333 
+              </prev>
+              1189 0 0.333333 
+            </E>
+            <E>
+              <prev>
+                0 -0.333333 
+              </prev>
+              1190 0 14 
+            </E>
+            <E>
+              <prev>
+                0 -14 
+              </prev>
+              1232 0 41.6667 
+            </E>
+            <L>
+              <prev>
+                0 -41.6667 
+              </prev>
+              1357 0 
+            </L>
+            </keyframes>
+          </rot>
+        <pos>
+          <default>
+            0 
+          </default>
+          <keyframes>
+            <E>
+              1042 0 0.333333 
+            </E>
+            <E>
+              <prev>
+                0 -0.333333 
+              </prev>
+              1043 0 12.6667 
+            </E>
+            <E>
+              <prev>
+                0 -12.6667 
+              </prev>
+              1080 0 3 
+            </E>
+            <E>
+              <prev>
+                0 -3 
+              </prev>
+              1089 0 9.66667 
+            </E>
+            <E>
+              <prev>
+                0 -9.66667 
+              </prev>
+              1133 0 0.333333 
+            </E>
+            <E>
+              <prev>
+                0 -0.333333 
+              </prev>
+              1134 0 23.3333 
+            </E>
+            <E>
+              <prev>
+                0 -23.3333 
+              </prev>
+              1189 0 0.333333 
+            </E>
+            <E>
+              <prev>
+                0 -0.333333 
+              </prev>
+              1190 0 14 
+            </E>
+            <E>
+              <prev>
+                0 -14 
+              </prev>
+              1232 0 41.6667 
+            </E>
+            <L>
+              <prev>
+                0 -41.6667 
+              </prev>
+              1357 0 
+            </L>
+            </keyframes>
+          </pos>
+        <shx>
+          <default>
+            0 
+          </default>
+          <keyframes>
+            <E>
+              1042 0 0.333333 
+            </E>
+            <E>
+              <prev>
+                0 -0.333333 
+              </prev>
+              1043 0 12.6667 
+            </E>
+            <E>
+              <prev>
+                0 -12.6667 
+              </prev>
+              1080 0 3 
+            </E>
+            <E>
+              <prev>
+                0 -3 
+              </prev>
+              1089 0 9.66667 
+            </E>
+            <E>
+              <prev>
+                0 -9.66667 
+              </prev>
+              1133 0 0.333333 
+            </E>
+            <E>
+              <prev>
+                0 -0.333333 
+              </prev>
+              1134 0 23.3333 
+            </E>
+            <E>
+              <prev>
+                0 -23.3333 
+              </prev>
+              1189 0 0.333333 
+            </E>
+            <E>
+              <prev>
+                0 -0.333333 
+              </prev>
+              1190 0 14 
+            </E>
+            <E>
+              <prev>
+                0 -14 
+              </prev>
+              1232 0 41.6667 
+            </E>
+            <L>
+              <prev>
+                0 -41.6667 
+              </prev>
+              1357 0 
+            </L>
+            </keyframes>
+          </shx>
+        <shy>
+          <default>
+            0 
+          </default>
+          <keyframes>
+            <E>
+              1042 0 0.333333 
+            </E>
+            <E>
+              <prev>
+                0 -0.333333 
+              </prev>
+              1043 0 12.6667 
+            </E>
+            <E>
+              <prev>
+                0 -12.6667 
+              </prev>
+              1080 0 3 
+            </E>
+            <E>
+              <prev>
+                0 -3 
+              </prev>
+              1089 0 9.66667 
+            </E>
+            <E>
+              <prev>
+                0 -9.66667 
+              </prev>
+              1133 0 0.333333 
+            </E>
+            <E>
+              <prev>
+                0 -0.333333 
+              </prev>
+              1134 0 23.3333 
+            </E>
+            <E>
+              <prev>
+                0 -23.3333 
+              </prev>
+              1189 0 0.333333 
+            </E>
+            <E>
+              <prev>
+                0 -0.333333 
+              </prev>
+              1190 0 14 
+            </E>
+            <E>
+              <prev>
+                0 -14 
+              </prev>
+              1232 0 41.6667 
+            </E>
+            <L>
+              <prev>
+                0 -41.6667 
+              </prev>
+              1357 0 
+            </L>
+            </keyframes>
+          </shy>
+        <nodePos>
+          24620 25500 
+        </nodePos>
+        </pegbar>
+      <pegbar id="Col3">
+        <parent handle="B" id="Table" parentHandle="B">
+          </parent>
+        <isOpened>
+          0 
+        </isOpened>
+        <center>
+          0 0 0 0 
+        </center>
+        <status>
+          0 
+        </status>
+        <sx>
+          <default>
+            1 
+          </default>
+          </sx>
+        <sy>
+          <default>
+            1 
+          </default>
+          </sy>
+        <sc>
+          <default>
+            1 
+          </default>
+          </sc>
+        <nodePos>
+          24620 25450 
+        </nodePos>
+        </pegbar>
+      <pegbar id="Col4">
+        <parent handle="B" id="Table" parentHandle="B">
+          </parent>
+        <isOpened>
+          0 
+        </isOpened>
+        <center>
+          0 0 0 0 
+        </center>
+        <status>
+          0 
+        </status>
+        <sx>
+          <default>
+            1 
+          </default>
+          </sx>
+        <sy>
+          <default>
+            1 
+          </default>
+          </sy>
+        <sc>
+          <default>
+            1 
+          </default>
+          </sc>
+        <nodePos>
+          24620 25400 
+        </nodePos>
+        </pegbar>
+      <pegbar id="Col5">
+        <parent handle="B" id="Table" parentHandle="B">
+          </parent>
+        <isOpened>
+          0 
+        </isOpened>
+        <center>
+          0 0 0 0 
+        </center>
+        <status>
+          0 
+        </status>
+        <sx>
+          <default>
+            1 
+          </default>
+          </sx>
+        <sy>
+          <default>
+            1 
+          </default>
+          </sy>
+        <sc>
+          <default>
+            1 
+          </default>
+          </sc>
+        <nodePos>
+          24620 25350 
+        </nodePos>
+        </pegbar>
+      <pegbar id="Col6">
+        <parent handle="B" id="Table" parentHandle="B">
+          </parent>
+        <isOpened>
+          0 
+        </isOpened>
+        <center>
+          0 0 0 0 
+        </center>
+        <status>
+          0 
+        </status>
+        <sx>
+          <default>
+            1 
+          </default>
+          </sx>
+        <sy>
+          <default>
+            1 
+          </default>
+          </sy>
+        <sc>
+          <default>
+            1 
+          </default>
+          </sc>
+        <nodePos>
+          24620 25250 
+        </nodePos>
+        </pegbar>
+      <pegbar id="Col7">
+        <parent handle="B" id="Table" parentHandle="B">
+          </parent>
+        <isOpened>
+          0 
+        </isOpened>
+        <center>
+          0 0 0 0 
+        </center>
+        <status>
+          0 
+        </status>
+        <sx>
+          <default>
+            1 
+          </default>
+          </sx>
+        <sy>
+          <default>
+            1 
+          </default>
+          </sy>
+        <sc>
+          <default>
+            1 
+          </default>
+          </sc>
+        <nodePos>
+          24620 25300 
+        </nodePos>
+        </pegbar>
+      <pegbar id="Col8">
+        <parent handle="B" id="Table" parentHandle="B">
+          </parent>
+        <isOpened>
+          0 
+        </isOpened>
+        <center>
+          0 0 0 0 
+        </center>
+        <status>
+          0 
+        </status>
+        <sx>
+          <default>
+            1 
+          </default>
+          </sx>
+        <sy>
+          <default>
+            1 
+          </default>
+          </sy>
+        <sc>
+          <default>
+            1 
+          </default>
+          </sc>
+        <nodePos>
+          1.234e+09 5.678e+09 
+        </nodePos>
+        </pegbar>
+      <grid_dimension>
+        1 
+      </grid_dimension>
+      </pegbars>
+    <fxnodes>
+      <internal>
+        <fxnode>
+          <STD_fadeFx id='103'>
+            
+            <params>
+              <value>
+                <default>
+                  100 
+                </default>
+                <keyframes>
+                  <L>
+                    1099 100 
+                  </L>
+                  <L>
+                    <prev>
+                      0 
+                    </prev>
+                    1134 0 
+                  </L>
+                  <L>
+                    <prev>
+                      100 
+                    </prev>
+                    1160 100 
+                  </L>
+                  <L>
+                    <prev>
+                      0 
+                    </prev>
+                    1178 0 
+                  </L>
+                  <L>
+                    <prev>
+                      0 
+                    </prev>
+                    1189 0 
+                  </L>
+                  <L>
+                    <prev>
+                      100 
+                    </prev>
+                    1204 100 
+                  </L>
+                  </keyframes>
+                </value>
+              </params>
+            <ports>
+              <Source>
+                <Toonz_columnFx id='98'/>
+              </Source>
+              </ports>
+            <dagNodePos>
+              25202 24771 
+            </dagNodePos>
+            <numberId>
+              1 
+            </numberId>
+            <name>
+              Transparency01 
+            </name>
+            <fxId>
+              Transparency01 
+            </fxId>
+            <opened>
+              0 
+            </opened>
+            
+          </STD_fadeFx>
+          
+        </fxnode>
+        </internal>
+      <terminal>
+        <fxnode>
+          <Toonz_columnFx id='100'/>
+        </fxnode>
+        <fxnode>
+          <Toonz_columnFx id='94'/>
+        </fxnode>
+        <fxnode>
+          <Toonz_columnFx id='90'/>
+        </fxnode>
+        <fxnode>
+          <Toonz_columnFx id='92'/>
+        </fxnode>
+        <fxnode>
+          <Toonz_columnFx id='96'/>
+        </fxnode>
+        <fxnode>
+          <STD_fadeFx id='103'/>
+        </fxnode>
+        <fxnode>
+          <Toonz_columnFx id='102'/>
+        </fxnode>
+        </terminal>
+      <xsheet>
+        <Toonz_xsheetFx id='104'>
+          
+          <params>
+            </params>
+          <ports>
+            </ports>
+          <dagNodePos>
+            25120 25000 
+          </dagNodePos>
+          <numberId>
+            0 
+          </numberId>
+          <name>
+            Xsheet 
+          </name>
+          <fxId>
+            "" 
+          </fxId>
+          <opened>
+            0 
+          </opened>
+          
+        </Toonz_xsheetFx>
+        
+      </xsheet>
+      <output>
+        <Toonz_outputFx id='105'>
+          
+          <params>
+            </params>
+          <ports>
+            <source>
+              <Toonz_xsheetFx id='104'/>
+            </source>
+            </ports>
+          <dagNodePos>
+            25235 24995 
+          </dagNodePos>
+          <numberId>
+            0 
+          </numberId>
+          <name>
+            OutputFx 
+          </name>
+          <fxId>
+            "" 
+          </fxId>
+          <opened>
+            0 
+          </opened>
+          
+        </Toonz_outputFx>
+        
+      </output>
+      <grid_dimension>
+        1 
+      </grid_dimension>
+      </fxnodes>
+    </xsheet>
+  <history>
+    "| #    DATE:       Time:   MACHINE:    USER:           |"
+    "| #1   14 Jul 24   11:33   ESPHAERA    yaot4           |"
+    "| #2   15 Jul 24   10:53   ESPHAERA    yaot4           |"
+    "| #3   15 Jul 24   13:45   ESPHAERA    yaot4           |"
+    "| #4   15 Jul 24   13:54   ESPHAERA    yaot4           |"
+    "| #5   15 Jul 24   13:59   ESPHAERA    yaot4           |"
+    "| #6   15 Jul 24   14:14   ESPHAERA    yaot4           |"
+    "| #7   15 Jul 24   15:17   ESPHAERA    yaot4           |"
+    "| #8   16 Jul 24   10:09   ESPHAERA    yaot4           |"
+    "| #9   16 Jul 24   16:31   ESPHAERA    yaot4           |"
+    "| #10  16 Jul 24   17:40   ESPHAERA    yaot4           |"
+    "| #11  16 Jul 24   18:00   ESPHAERA    yaot4           |"
+    "| #12  16 Jul 24   22:46   ESPHAERA    yaot4           |"
+    "| #13  17 Jul 24   10:52   ESPHAERA    yaot4           |"
+    "| #14  17 Jul 24   13:32   ESPHAERA    yaot4           |"
+    "| #15  17 Jul 24   22:16   ESPHAERA    yaot4           |"
+    "| #16  18 Jul 24   22:36   ESPHAERA    yaot4           |"
+    "| #17  20 Jul 24   21:56   ESPHAERA    yaot4           |"
+    "| #18  21 Jul 24   17:43   ESPHAERA    yaot4           |"
+    "| #19  21 Jul 24   21:30   ESPHAERA    yaot4           |"
+    "| #20  22 Jul 24   10:12   ESPHAERA    yaot4           |"
+    "| #21  22 Jul 24   20:38   ESPHAERA    yaot4           |"
+    "| #22  23 Jul 24   19:48   ESPHAERA    yaot4           |"
+    "| #23  24 Jul 24   21:44   ESPHAERA    yaot4           |"
+    "| #24  25 Jul 24   15:25   ESPHAERA    yaot4           |"
+    "| #25  25 Jul 24   15:39   ESPHAERA    yaot4           |"
+    "| #26  25 Jul 24   17:47   ESPHAERA    yaot4           |"
+    "| #27  27 Jul 24   21:08   ESPHAERA    yaot4           |"
+    "| #28  27 Jul 24   21:54   ESPHAERA    yaot4           |"
+    "| #29  28 Jul 24   17:04   ESPHAERA    yaot4           |"
+    "| #30  28 Jul 24   22:24   ESPHAERA    yaot4           |"
+    "| #31  29 Jul 24   20:51   ESPHAERA    yaot4           |"
+    "| #32  06 Aug 24   16:20   ESPHAERA    yaot4           |"
+    "| #33  06 Aug 24   17:16   ESPHAERA    yaot4           |"
+    "| #34  07 Aug 24   10:28   ESPHAERA    yaot4           |"
+    "| #35  07 Aug 24   11:19   ESPHAERA    yaot4           |"
+    "| #36  07 Aug 24   11:30   ESPHAERA    yaot4           |"
+    "| #37  07 Aug 24   11:36   ESPHAERA    yaot4           |"
+    "| #38  07 Aug 24   11:48   ESPHAERA    yaot4           |"
+    "| #39  07 Aug 24   20:50   ESPHAERA    yaot4           |"
+    "| #40  07 Aug 24   21:40   ESPHAERA    yaot4           |"
+    "| #41  08 Aug 24   10:30   ESPHAERA    yaot4           |"
+    "| #42  08 Aug 24   11:06   ESPHAERA    yaot4           |"
+    "| #43  08 Aug 24   13:50   ESPHAERA    yaot4           |"
+    "| #44  08 Aug 24   14:35   ESPHAERA    yaot4           |"
+    "| #45  08 Aug 24   18:59   ESPHAERA    yaot4           |"
+    "| #46  09 Aug 24   16:37   ESPHAERA    yaot4           |"
+    "| #47  09 Aug 24   22:30   ESPHAERA    yaot4           |"
+    "| #48  10 Aug 24   12:59   ESPHAERA    yaot4           |"
+    "| #49  10 Aug 24   20:36   ESPHAERA    yaot4           |"
+    "| #50  10 Aug 24   20:56   ESPHAERA    yaot4           |"
+    "| #51  10 Aug 24   21:42   ESPHAERA    yaot4           |"
+    "| #52  29 Aug 24   10:28   ESPHAERA    yaot4           |"
+    "| #53  30 Aug 24   19:53   ESPHAERA    yaot4           |"
+    "| #54  30 Aug 24   20:39   ESPHAERA    yaot4           |"
+  </history>
+  </tnz>
