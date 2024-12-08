@@ -1,1 +1,5 @@
-just put what you've done in a single folder and chuck it in this folder. we'll figure out a system later if we need to
+just put what you've done in a single folder and chuck it in this folder. 
+when asked to commit changes, check "Create a new branch for this commit and start a pull request."
+sometimes you may have to upload things piecemeal since github doesn't let you upload more than 100 files at a time
+
+the bitwamop1 folder is an example of the project source files of an incomplete animation uploaded into this folder.
